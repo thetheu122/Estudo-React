@@ -1,0 +1,75 @@
+
+
+.page_avalicao {
+    background-color: #F5F6FA;
+
+    
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        height: 87vh;
+    }
+
+    h2, h3 {
+        color: #746A6A;
+    }
+
+    .sub-container {
+        display: flex;
+    }
+
+    .cont-imgCarro {
+        display: flex;
+        align-items: center;
+        background-color: #CACACA;
+
+        padding: 0px 1rem 0px 1rem;
+
+    }
+
+    .cont-conteudo {
+
+        background-color: white;
+
+        padding: 2rem 0px 1rem 2rem;
+    }
+
+    .cont-inputs {
+        display: flex;
+    }
+
+    .cont-inputs div {
+        margin: 0px 1rem 0px 0px;
+    }
+
+    button {
+        background-color: #0084FF;
+        color: white;
+
+        border: none;
+        border-radius: 0.3em;
+
+        padding: 0.8rem 9.4rem;
+
+        margin: 2rem 0px 2rem 0rem;
+
+        cursor: pointer;
+    }
+
+    input {
+        border: 1px solid #DFDFDF;
+        border-radius: 0.2em;
+
+        height: 2em;
+    }
+
+    input:nth-child(1) {
+        width: 85%;
+    }
+
+}

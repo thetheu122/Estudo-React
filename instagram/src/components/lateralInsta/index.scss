@@ -1,0 +1,33 @@
+
+.lateral{
+    background-color: rgb(38, 38, 38);
+    width: 20vw;
+    height: 100vh;
+    color: white;
+    padding: 15px 10px 20px 20px;
+
+   .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    img{
+        height: 40px;
+        width: 40px;
+    }
+   }
+
+   .opcoes{
+    display: flex;
+    flex-direction: column;
+
+    div{
+        display: flex;
+        align-items: center;
+
+        p{
+            margin-left: 10px;
+        }
+    }
+   }
+}

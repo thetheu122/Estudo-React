@@ -1,0 +1,25 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+
+    
+
+    .celula {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding: 15px;
+        border:1px solid #DFDFDF;
+
+       
+        height: 15px;
+        width: 410px;
+      
+    }
+
+
+ 
+}

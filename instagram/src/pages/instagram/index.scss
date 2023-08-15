@@ -1,0 +1,125 @@
+
+
+.body {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 38, 38);
+    min-height: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+  
+
+    .meio{
+            width: 60vw;
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        
+        .publi-nova{
+            width: 160px;
+            height: 50px;
+            background-color: #373737;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            margin-top: 10px;
+        }
+
+
+        .storys{
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .forms{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 38vw;
+            background: linear-gradient(180deg, #353535 0%, rgba(60, 60, 60, 0) 74.48%);
+            padding: 10px 20px;
+            margin-top: 20px;
+
+            .i1{
+                width: 207px;
+                height: 26px;
+                border-radius: 4px;
+
+            }
+
+            .i2{
+                width: 90px;
+                height: 26px;
+                border-radius: 4px;
+            }
+
+            .i3{
+                width: 379px;
+                height: 26px;
+                left: 85px;
+                border-radius: 4px;
+            }
+
+            .i4{
+                width: 379px;
+                height: 77px;
+                border-radius: 4px
+            }
+
+            .i5{
+                width: 200px;
+                height: 26px;
+                border-radius: 4px;
+            }
+
+            .i6{
+                width: 90px;
+                height: 26px;
+                border-radius: 4px;
+
+            }
+
+            
+            .linha-3 {
+                display: flex;
+                align-items: flex-start !important;
+                div {
+                  p {
+                    margin-top: -38px!important;
+                  }
+                }
+              }
+
+            div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: end;
+                gap: 10px;
+                color: white;
+                min-width: 10px;
+            }
+
+            button{
+                width: 30vw;
+                padding: 10px 10px;
+                margin-top: 10px;
+                color: white;
+                background-color: #C60844;
+                border: none;
+                cursor: pointer;
+                outline: none;
+
+                button:hover {
+                    background-color: #E1306C;
+                  }
+            }
+        }
+    }
+}
